@@ -1,9 +1,14 @@
 package com.jonstites.algorithms;
 
+import java.util.ArrayList;
+
 public class HashSet<T> {
+    private int size;
+    private ArrayList<T> data;
 
     public HashSet() {
-
+        this.size = 0;
+        this.data = new ArrayList<>();
     }
 
     public boolean add(T item) {
@@ -14,7 +19,7 @@ public class HashSet<T> {
         return true;
     }
 
-    public boolean contains() {
+    public boolean contains(T item) {
         return true;
     }
 
