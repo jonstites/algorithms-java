@@ -2,6 +2,7 @@ package com.jonstites.algorithms;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 
 import java.util.List;
 import java.util.TreeSet;
@@ -38,7 +39,7 @@ public class Graph {
     public ArrayList<Integer> bfs(Integer source, Integer destination) {
         ArrayDeque<Integer> queue = new ArrayDeque<>();
         HashMap<Integer, Integer> parents = new HashMap<>();
-        TreeSet<Integer> expanded = new TreeSet<>();
+        HashSet<Integer> expanded = new HashSet<>();
 
         queue.addFirst(source);
         expanded.add(source);
@@ -67,7 +68,7 @@ public class Graph {
     public ArrayList<Integer> dfs(Integer source, Integer destination) {
         ArrayDeque<Integer> stack = new ArrayDeque<>();
         HashMap<Integer, Integer> parents = new HashMap<>();
-        TreeSet<Integer> expanded = new TreeSet<>();
+        HashSet<Integer> expanded = new HashSet<>();
 
         stack.addLast(source);
         Integer node;
