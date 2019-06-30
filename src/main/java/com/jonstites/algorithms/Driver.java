@@ -10,7 +10,7 @@ import java.io.IOException;
 
 
 
-public class HelloWorld {
+public class Driver {
 
     public static void main(String[] args) throws IOException, NumberFormatException {
         if (args[0].equals("graph")) {
