@@ -5,7 +5,9 @@ Algorithms practice using Java.
 Implemented so far:
 
 [x] HashSet
+
 [x] Graph Breadth First Search
+
 [x] Graph Depth First Search
 
 Build:
