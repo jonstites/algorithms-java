@@ -3,10 +3,8 @@ package com.jonstites.algorithms;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
-
 import java.util.List;
 import java.util.TreeSet;
-
 import java.util.RandomAccess;
 import org.apache.commons.lang3.tuple.Pair;
 import java.util.ArrayDeque;
@@ -105,5 +103,9 @@ public class Graph {
         }
         Collections.reverse(result);
         return result;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
     }
 }
