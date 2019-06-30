@@ -9,5 +9,10 @@ cache:
     - $HOME/.gradle/wrapper/
 jdk:
   - openjdk11
+
+install:
+  ./gradlew wrapper --gradle-version=5.5 --distribution-type=bin
+  
+
 notifications:
   email: false
